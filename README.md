@@ -9,4 +9,4 @@
 
 # Releases for desktop
 
-[Windows x64](https://github.com/Diffuso/HabboOriginsUserLookup/releases/download/executable/Win_x64.zip)
+[Windows x64](https://github.com/Diffuso/HabboOriginsUserLookup/releases/download/executable/Win_x64.zip) (Requires Webview2 runtime)
