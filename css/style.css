@@ -1,0 +1,252 @@
+/* Button */
+@font-face {
+    font-family: 'Volter'; /*a name to be used later*/
+    src: url('../font/volter-goldfish.ttf'); /*URL to font*/
+}
+
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+/* Search button */
+.container .searchBtn {
+  position: absolute;
+  top: 117px;
+  left: 367px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  padding: 20px 47px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+/* Username style */
+.container .username {
+  position: absolute;
+  top: 73px;
+  left: 274px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 21px;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Hotel select style */
+.container .hotelSelect {
+  position: absolute;
+  top: 116px;
+  left: 187px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 21px;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Image avatar */
+.container .avatar {
+  position: absolute;
+  top: 390px;
+  left: 290px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Image badge */
+.container .badge {
+  position: absolute;
+  top: 340px;
+  left: 185px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Unique ID label*/
+.container .uniqueId {
+  position: absolute;
+  top: 175px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* User label */
+.container .user {
+  position: absolute;
+  top: 190px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Online label */
+.container .online {
+  position: absolute;
+  top: 205px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Last access label */
+.container .lastAccess {
+  position: absolute;
+  top: 220px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Member since label */
+.container .memberSince {
+  position: absolute;
+  top: 235px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Motto label */
+.container .motto {
+  position: absolute;
+  top: 250px;
+  left: 65px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+  width: 390px;
+}
+
+/* User doesn't exist message label */
+.container .userDoesntExist {
+  position: absolute;
+  top: 175px;
+  left: 70px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Text avatar */
+.container .textAvatar {
+  position: absolute;
+  top: 290px;
+  left: 250px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+/* Text Badge */
+.container .textBadge {
+  position: absolute;
+  top: 290px;
+  left: 150px;
+  background-color: transparent;
+  color: white;
+  padding: 0px 0px;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: left;
+  outline: none;
+  font-family: "Volter";
+}
+
+.container .heartBtn {
+  position: absolute;
+  top: 572px;
+  left: 490px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  padding: 7px 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+
+}

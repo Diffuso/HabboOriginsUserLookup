@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Habbo Origins User Lookup</title>
+		<script src="js/requests.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			body {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			}
+		</style>
+	</head>
+<body>
+	<div class="container">
+  	<img src="images/background.png">
+	<input class ="username" type="text" id="username" name="username" required maxlength="15" value=""/>
+	<label class="uniqueId" id="uniqueId"></label>
+	<label class="user" id="user"></label>
+	<label class="online" id="online"></label>
+	<label class="lastAccess" id="lastAccess"></label>
+	<label class="memberSince" id="memberSince"></label>
+	<label class="motto" id="motto"></label>
+	<label class="userDoesntExist" id="userDoesntExist"></label>
+	<label class="textAvatar" id="textAvatar"></label>
+	<label class="textBadge" id="textBadge"></label>
+	<select class="hotelSelect" id="hotel" name="select">
+		<option value=".es" selected>.ES</option>
+		<option value=".com">.COM</option>
+		<option value=".com.br">.COM.BR</option>
+	</select>
+	<button class="searchBtn" onclick="getUserData(document.getElementById('username').value, document.getElementById('hotel').value)"></button>
+	<img class="avatar" id="avatar"/>
+	<img class="badge" id="badge"/>
+	<button class="heartBtn" onclick="alert(credits)"></button>
+	</div>
+
+</body>
+</html>
